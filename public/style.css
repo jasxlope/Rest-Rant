@@ -2,3 +2,20 @@ h1 {
     text-align: center;
     color: cornflowerblue;
 }
+
+.error-page {
+    background-image: url('https://media.istockphoto.com/id/157295512/photo/looking-at-heaven.webp?b=1&s=170667a&w=0&k=20&c=qMQolGjE9ASaRzvEFUhpsMtc2UjIUwOsJFRdPmTL_Iw=');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-page p {
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+}
