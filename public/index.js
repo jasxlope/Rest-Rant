@@ -22,3 +22,10 @@ app.get('*', (req, res) => {
 
 // Listen for Connections
 app.listen(process.env.PORT)
+
+app.use(express.urlencoded({ extended: true }))
+
+router.post('/', (req, res) => {
+  console.log(req.body)
+  res.send('POST /places')
+})
